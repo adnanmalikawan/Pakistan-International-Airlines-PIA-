@@ -1,0 +1,119 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224,67,182);
+    background: linear-gradient(170deg, rgba(224,67,182,0.9444152661064426) 0%, rgb(192, 67, 67) 100%);
+    font-family:sans-serif;
+    
+}
+
+.container{
+    max-width: 700px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+.container .title{
+font-size: 25px;
+font-weight: 500;
+position: relative;
+}
+
+.container form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+width: calc(100%/2-20px);
+
+
+}
+.user-details .input-box input{
+    width: 100%;
+    height: 45px;
+}
+.user-details .input-box .details{
+    outline: none;
+   
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.radio-box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2-20px);
+    margin: 20px 0 12px 0;
+}
+
+.radio-box .details {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: start;
+}
+
+.gender-options > div {
+    margin-right: 70px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box,  .input-box {
+    margin: 20px 0 12px 0;
+    width: calc(50% - 20px);
+}
+/* ... (rest of your CSS) ... */
+
+.input-box.full-width {
+
+    width: 100% !important;
+}
+
+.input-box.full-width select {
+    padding: 20px;
+    width: 560px !important;
+}
+.button input[type="submit"] {
+    background-color: rgb(53, 174, 214); /* Set the background color */
+    color: white;                /* Set the text color */
+    padding: 20px 30px;         /* Set the padding (10px vertical, 20px horizontal) */
+    border: none;               /* Remove any border */
+    border-radius: 4px;         /* Add a slight rounded corner */
+    cursor: pointer;            /* Change the cursor to a hand when hovered */
+    transition: 0.3s;           /* Optional: add a transition for a hover effect */
+}
+
+/* Optional: a hover effect to make the button slightly darker when hovered */
+.input-box input[type="text"],
+.input-box input[type="number"],
+.input-box input[type="email"],
+.input-box input[type="date"],
+.input-box select {
+    border: none;              /* Removes the border */
+    background-color: #f3f0f0; /* Sets a light grey background color */
+    /* ... any other styles you have for these inputs ... */
+}
+
