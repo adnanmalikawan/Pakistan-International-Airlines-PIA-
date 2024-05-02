@@ -1,0 +1,228 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply a background image to the body */
+body {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.logo_name{
+    justify-content: center;
+    background-color: #1D5EFA;
+  color: white;
+  padding-top: 1rem;
+}
+/* Style the header */
+.header {
+  background-color: #1D5EFA;
+  color: white;
+  /* justify-content: center; */
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.button1 {
+    background-color: #027BFF;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-inline: 2.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #3ECCD3;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-inline: 2.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bar{
+    justify-content: center;
+    font-weight: 600;
+    padding: 1rem;
+    padding-left: 15rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the content section */
+.content {
+  background-color: #1D5EFA;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+}
+.logoes{
+    padding: 1rem;
+    background-color: #F9F9F9;
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    padding-inline: 5rem;
+}
+
+
+.choose{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FBFCFE;
+    padding: 3rem;
+    color: black;
+}
+.box{
+    background-color: #FBFCFE;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.boxes{
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border: #1D5EFA;
+    border-radius: 10px;
+}
+
+
+
+
+.product{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FBFCFE;
+    padding: 3rem;
+    color: black;
+}
+.box2{
+    background-color: #FBFCFE;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.boxes2{
+    background-color: #ffffff;
+    align-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border: #1D5EFA;
+    border-radius: 10px;
+}
+
+
+.button3 {
+    background-color: #027BFF;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-inline: 3rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boxes2 p{
+    padding-bottom: 1rem;
+}
+
+
+.statistics{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:#1D5EFA;
+    padding: 5rem;
+    color: white;
+}
+.box3{
+    background-color: #1D5EFA;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.boxes3{
+    background-color: #007AFF;
+    align-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border: #1D5EFA;
+    border-radius: 5px;
+    width: 30rem;
+}
+
+.boxes3 h3{
+    padding-top: 0rem;
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul{
+    color: grey;
+}
